@@ -16,7 +16,7 @@ try:
     cursor = connection.cursor()
 
     # Create the database if does not exist 
-    cursor.execute("CREATE DATABASE IF NOT EXITS alx_book_store")
+    cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
     # printing the output if it is created or connected successfully
     print("Database 'alx_book_store' created successfully!")
 
