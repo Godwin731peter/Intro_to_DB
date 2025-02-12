@@ -21,7 +21,7 @@ try:
     print("Database 'alx_book_store' created successfully!")
 
 # Error handlin
-except Error as e:
+except mysql.connector.Error as e:
   print(f"Error: {e}")
 
 finally:
