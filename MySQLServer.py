@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 
 HOST = "::1"
-USER = peter
+USER = "peter"
 PASSWORD = "peter7#negbom"
 
 try:
